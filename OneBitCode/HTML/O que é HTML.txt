@@ -1,0 +1,24 @@
+O que é HTML? 
+	- Hyper Text Markup Language, ou Linguagem de Marcação de HiperTexto
+		Curiosidades: hipertexto significa um conjunto de textos entre os quais um usuário pode navegar usando links, o que costumava ser o principal uso da internet nos primeiros anos de existência.
+	- É uma linguagem usada para criar uma estrutura de elementos e suas informações, mais precisamente, os elementos de uma pagina web
+	- Criada em 1989 e 1990 para o compartilhamento de pesquisas científicas entre Tim Bernes-Lee (físico inglês e autor da linguagem) e seus colegas de trabalho
+
+Como funciona?
+	- Através de arquivos de texto com a extensão .html
+	- Usando o que chamamos de tag, que representam os elementos que queremos exibir na página web
+	- Existem muitos tipo de elementos no HTML
+		Títulos, parágrafos, listas, tabelas, etc
+		Imagens, Vídeos, áudios, etc
+		Formulários, caixas de texto, botões, etc
+		Divisores,cabeçalhos, rodapé, etc
+
+	- Uma tag é algo como: <p>Isso é uma tag</p>
+	- Uma tag pode ter atributos, que são características especiais de um determinado elemento 
+	- Uma tag com um atributo é algo como:
+		<p id="paragrafo-principal" >Isso é uma tag com atributo</p> 
+
+Recursos importantes para ajudar nos estudos
+	- Documentação da MDN: https://developer.mozilla.org/pt-BR/docs/Web/HTML
+	- Guia da w3schools: https://www.w3schools.com/html/html_intro.asp
+

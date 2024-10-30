@@ -1,0 +1,9 @@
+Uma página web é composta de duas partes principais, o head e o body
+
+A tag <head> define os meta dados do documento, ou seja, informações sobre o próprio documento
+
+O <head> é feito para o navegador, para que ele "conheça melhor" a página HTML em questão
+
+A tag <body> contém todo o conteúdo visível do documento
+
+O <body> é feito para os usuários, ele é a página em si
