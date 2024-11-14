@@ -1,0 +1,35 @@
+WAI-ARIA e atributos de acessibilidade
+
+Acessibilidade: garantir inclusão digital e acesso igualitário a informações e serviços na web
+
+Os Quatro pilares da acessibilidade segundo a WCAG (Web Content Acessibility Guidelines)
+
+    - Perceptível: garantir que os conteúdos sejam apresentandos de maneira clara, e adaptavel, permitindo a personalização.
+        - Conteúdos alternativos
+        - Apresentação personalisável
+        - Contraste na Apresentação
+
+    - Operável: facilitar a interação e a navegação, tornar a web utilizável por diversos dispositivos e tecnoclogias assistivas
+        - Uso através do teclado
+        - facilitar localização e navegação
+
+    - Compreensível: tornar a informação e o funcionamento dos elementos claros e fáceis de entender
+        - textos legiveis e compreensiveis
+        - correções e prevenções de erros
+
+    - Robusto: criar conteúdos que possam ser interpretados de forma consistente por uma variedade de agentes do usuário. 
+        - zelar pela compatibilidade
+
+O que é WAI-ARIA?
+    - Web Acessibility Initiative -  Assessible Rich Internet Applications
+    - Tem como objetivo estender as capacidades dos elementos HTML para tornálos mais acessíveis e interativos
+    - Adiciona o suporte a tecnologia assistivas, como leitores de tela, por meio de atributos ARIA
+
+
+Alguns exemplos práticos
+    - Tronar as imagens acessíveis adicionando um texto alternativo (atributo "alt") para descrever a imagem
+    - Usar corretamente os títulos (h1, h2, h3, h4 etc) para estruturar o conteúdo e facilitar a navegação para leitores de tela
+    - Criar formulários acessíveis usando rótulos (elemento "label") associados aos inputs do formulário.
+    - Usar cores para garantir contraste suficiente e permitir a distribuição de elementos por usuarios com deficiencia visual.
+    - Tornar links e botões claros e descritos para facilitar a compreensão do conteúdo e não usar ícones sem um rótulo
+    - Utilização dos atributos "label", "role", "state", e "property" do WAI-ARIA para melhorar a semântica e comportamento de elementos. 

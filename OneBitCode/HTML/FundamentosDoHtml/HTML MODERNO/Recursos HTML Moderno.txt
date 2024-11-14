@@ -1,0 +1,22 @@
+Recursos modernos no HTML 5
+
+Versão mais atual do HTML
+
+Novidades
+    - Novas tags semânticas, como: <header>, <nav>, <section>, <article>, <aside>, <footer>, etc.
+        - Tornam a página mais clara e significativa para ferramentas de acessibilidade e para mecanismo de busca (SEO)
+
+    - Melhoreias nos elementos de formulário, como input com novos tipos (por exemplo, email, tal, date) e atributos como (require, placeholder, pattern)
+
+    - Novas tags <audio> e <video> para incorporar áudio e video na página
+
+Links Úteis
+    - Tag de vídeo HTML5: https://www.w3schools.com/html/html5_video.asp
+    
+    - Tag de áudio HTML5: https://www.w3schools.com/html/html5_audio.asp
+    
+    - Semantica no HTML 5: https://www.w3schools.com/html/html5_semantic_elements.asp
+    
+    - Documentação dos tipos de input: https://www.w3schools.com/html/html_form_input_types.asp
+    
+    - Simulando os tipos novos de input: https://www.webfx.com/blog/images/assets/cdn.sixrevisions.com/demos/0345-new_html5_form_input_types/new-html5-form-input-types.html
