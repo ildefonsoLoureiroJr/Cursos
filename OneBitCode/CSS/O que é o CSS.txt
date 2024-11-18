@@ -1,0 +1,25 @@
+O que é o CSS?
+
+Cascading Style Sheets, ou folhas de estilo em cascata.
+
+Linguagem usada para definir os estilos em um documento HTML.
+
+Pode ser incluído no documento de 3 modos:
+     - Com o atributo style, por exemplo: 
+     <h1 style="color: red;"> Título Vermelho</h1>
+     - Com a tag style, por exemplo:
+     <head>
+        <style>h1 {color:red;}</style>
+     - Com a tag link apontando para um arquivo CSS,por exemplo:
+     <link rel="stylesheet" href="style.css">
+
+
+Estrutura de um código CSS usando como exemplo o código: h1{ color:red;}
+    - h1 é o seletor, ou seja, o termo que seleciona qual parte do documento terá estilo
+    - As chaves {} delimitam o bloco de declarações, ou seja, onde começam e terminam os estilos a serem aplicados no(s) elemento(s) selecionado(s)
+    - A declaração color: red; define um estilo. Declarações são sempre compostos por duas partes, a propriedade e o valor, separadas por dois pontos, e finalizadas por ponto e virgula
+    - Exemplo:
+        selector{
+            propriedade: valor;
+            outra-propriedade:valor;
+        }
