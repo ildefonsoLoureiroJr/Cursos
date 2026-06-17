@@ -8,117 +8,125 @@
 </head>
 <body>
     <header>
-        <section class="home">
-            <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Cardápio</a></li>
-            <li><a href="#">Sobre Nós</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
+        <section id="home">
+            <ul class="home__lista">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#sobre-nos">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </section>
         
         <section class="pizza">
-            <img src="./img/imagem1.jpg" alt="">
-            <div class="pizza-text">
-                <h1>Bem-Vindo à Alessio's</h1>
-                <p>Saborosas pizzas feitas especialmente para você!</p>
-                
-            </div>
-            <div class="ver-cardapio">
-                <a href="#">Ver Cardápio</a>
+            <img class="pizza__img-principal" src="./img/imagem1.jpg" alt="">
+            <div class="pizza__text">
+                <h1 class="pizza__titulo">Bem-Vindo à Alessio's</h1>
+                <p class="pizza__texto">Saborosas pizzas feitas especialmente para você!</p>
+                <a class="pizza__btn-verCardapio" href="#cardapio">Ver Cardápio</a>
             </div>
             
         </section>
     </header>
+    
     <main>
-        <section class="cadapio">
-            <h2>Cardápio</h2>
-            <ul>
+        <section id="cardapio">
+            <h2 class="cardapio__titulo">Cardápio</h2>
+                <ul class="cardapio__lista">
                 <li>
-                    <img class="cardapio__img-1" src="./img/imagem2.jpg" alt="">
-                    <h2>Pizza Margherita</h2>
-                    <p>Molho de tomate, mussarela, manjericão fresco.</p>
+                    <img class="cardapio__img" src="./img/imagem2.jpg" alt="">
+                    <h2 class="cardapio__sabor">Pizza Margherita</h2>
+                    <p class="cardapio__descricao">Molho de tomate, mussarela, manjericão fresco.</p>
                 </li>
                 <li>
-                    <img class="cardapio__img-2" src="./img/imagem2.jpg" alt="">
-                    <h2>Pizza Pepperoni</h2>
-                    <p>Molho de tomate, pepperoni, queijo mussarela.</p>
+                    <img class="cardapio__img" src="./img/imagem2.jpg" alt="">
+                    <h2 class="cardapio__sabor">Pizza Pepperoni</h2>
+                    <p class="cardapio__descricao">Molho de tomate, pepperoni, queijo mussarela.</p>
                 </li>
                 <li>
-                    <img class="cardapio__img-3" src="./img/imagem2.jpg" alt="">
-                    <h2>Pizza Quatro Queijos</h2>
-                    <p>Molho de tomate, mussarela, parmesão, gorgonzola, provolone.</p>
+                    <img class="cardapio__img" src="./img/imagem2.jpg" alt="">
+                    <h2 class="cardapio__sabor">Pizza Quatro Queijos</h2>
+                    <p class="cardapio__descricao">Molho de tomate, mussarela, parmesão, gorgonzola, provolone.</p>
                 </li>
                 <li>
-                    <img class="cardapio__img-4" src="./img/imagem2.jpg" alt="">
-                    <h2>Pizza Calabresa</h2>
-                    <p>Molho de tomate, calabresa, cebola, queijo mussarela.</p>
+                    <img class="cardapio__img" src="./img/imagem2.jpg" alt="">
+                    <h2 class="cardapio__sabor">Pizza Calabresa</h2>
+                    <p class="cardapio__descricao">Molho de tomate, calabresa, cebola, queijo mussarela.</p>
                 </li>
                 <li>
-                    <img class="cardapio__img-5" src="./img/imagem2.jpg" alt="">
-                    <h2>Pizza Vegetariana</h2>
-                    <p>Molho de tomate, pimentões, cogumelos, azeitonas, queijo mussarela.</p>
+                    <img class="cardapio__img" src="./img/imagem2.jpg" alt="">
+                    <h2 class="cardapio__sabor">Pizza Vegetariana</h2>
+                    <p class="cardapio__descricao">Molho de tomate, pimentões, cogumelos, azeitonas, queijo mussarela.</p>
                 </li>
                 <li>
-                    <img class="cardapio__img-6" src="./img/imagem2.jpg" alt="">
-                    <h2>Pizza Frango com Catupiry</h2>
-                    <p>Molho de tomate, frango desfiado, catupiry, milho, queijo mussarela.</p>
+                    <img class="cardapio__img" src="./img/imagem2.jpg" alt="">
+                    <h2 class="cardapio__sabor">Pizza Frango com Catupiry</h2>
+                    <p class="cardapio__descricao">Molho de tomate, frango desfiado, catupiry, milho, queijo mussarela.</p>
                 </li>
                 <li>
-                    <img class="cardapio__img-7" src="./img/imagem2.jpg" alt="">
-                    <h2>Pizza Portuguesa</h2>
-                    <p>Molho de tomate, presunto, ovos, cebola, azeitonas, queijo mussarela.</p>
+                    <img class="cardapio__img" src="./img/imagem2.jpg" alt="">
+                    <h2 class="cardapio__sabor">Pizza Portuguesa</h2>
+                    <p class="cardapio__descricao">Molho de tomate, presunto, ovos, cebola, azeitonas, queijo mussarela.</p>
                 </li>
                 <li>
-                    <img class="cardapio__img-8" src="./img/imagem2.jpg" alt="">
-                    <h2>Pizza Supreme</h2>
-                    <p>Molho de tomate, pepperoni, pimentões, cebola roxa, azeitonas, queijo mussarela.</p>
+                    <img class="cardapio__img" src="./img/imagem2.jpg" alt="">
+                    <h2 class="cardapio__sabor">Pizza Supreme</h2>
+                    <p class="cardapio__descricao">Molho de tomate, pepperoni, pimentões, cebola roxa, azeitonas, queijo mussarela.</p>
                 </li>
                 <li>
-                    <img class="cardapio__img-9" src="./img/imagem2.jpg" alt="">
-                    <h2>Pizza Tropical</h2>
-                    <p>Molho de tomate, presunto, abacaxi, queijo mussarela.</p>
+                    <img class="cardapio__img" src="./img/imagem2.jpg" alt="">
+                    <h2 class="cardapio__sabor">Pizza Tropical</h2>
+                    <p class="cardapio__descricao">Molho de tomate, presunto, abacaxi, queijo mussarela.</p>
                 </li>
                 <li>
-                    <img class="cardapio__img-10" src="./img/imagem2.jpg" alt="">
-                    <h2>Pizza Margherita Especial</h2>
-                    <p>Molho de tomate, mussarela de búfala, tomate fresco, majericão, azeite de oliva.</p>
+                    <img class="cardapio__img" src="./img/imagem2.jpg" alt="">
+                    <h2 class="cardapio__sabor">Pizza Margherita Especial</h2>
+                    <p class="cardapio__descricao">Molho de tomate, mussarela de búfala, tomate fresco, majericão, azeite de oliva.</p>
                 </li>
                 <li>
-                    <img class="cardapio__img-11" src="./img/imagem2.jpg" alt="">
-                    <h2>Pizza Carne de Sol</h2>
-                    <p>Molho de tomate, carne de sol desfiada, cebola roxa, queijo mussarela.</p>
+                    <img class="cardapio__img" src="./img/imagem2.jpg" alt="">
+                    <h2 class="cardapio__sabor">Pizza Carne de Sol</h2>
+                    <p class="cardapio__descricao">Molho de tomate, carne de sol desfiada, cebola roxa, queijo mussarela.</p>
                 </li>
                 <li>
-                    <img class="cardapio__img-12" src="./img/imagem2.jpg" alt="">
-                    <h2>Pizza Caprese</h2>
-                    <p>Molho de tomate, tomate fresco, mussarela de búfala, manjericão, azeite de oliva.</p>
+                    <img class="cardapio__img" src="./img/imagem2.jpg" alt="">
+                    <h2 class="cardapio__sabor">Pizza Caprese</h2>
+                    <p class="cardapio__descricao">Molho de tomate, tomate fresco, mussarela de búfala, manjericão, azeite de oliva.</p>
                 </li>
             </ul>
+            
         </section>
-        <section class="sobre-nos">
-            <h2>Sobre Nós</h2>
-            <p>Nossa pizzaria é conhecida a criar as melhores pizzas do mundo, com ingredientes frescos e receitas exclusivas.</p>
+        <section id="sobre-nos">
+            <img class="sobre-nos__img" src="./img/imagem3.jpg" alt="">
+            <div class="sobre-nos__conteudo">
+                <h2 class="sobre-nos__titulo">Sobre Nós</h2>
+                <p class="sobre-nos__texto">Nossa pizzaria é conhecida a criar as melhores pizzas do mundo, com ingredientes frescos e receitas exclusivas.</p>
+            </div>
+            
 
         </section>
-        <section class="contato">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco para fazer pedidos ou tirar suas dúvidas.</p>
-            <ul>
-                <li>
-                    <p>Endereço: Avenida Onze de Outubro, nº 123, Centro, Cidade Qualquer/RJ CEP: 12345-678</p>
-                </li>
-                <li>
-                    <p>Telefone: (11) 5555-5555</p>
-                </li>
-                <li>
-                    <p>E-mail: contato@alessios.pizza</p>
-                </li>
-                <li>
-                    <p>Horário de Funcionamento: Segunda a Sábado: 11h00 às 23h00 - Domingo: 16h00 às 23h00</p>
-                </li>
-            </ul>
-            <a href="#">Peça agora Mesmo!</a>
+        <section id="contato">
+            <div>
+                <h2 class="contato__titulo">Contato</h2>
+                <p class="contato__texto">Entre em contato conosco para fazer pedidos ou tirar suas dúvidas.</p>
+            </div>
+            
+            <div>
+                <ul class="contato__lista">
+                    <li>
+                        <p><strong>Endereço:</strong> Avenida Onze de Outubro, nº 123, Centro, Cidade Qualquer/RJ CEP: 12345-678</p>
+                    </li>
+                    <li>
+                        <p><strong>Telefone:</strong> (11) 5555-5555 <br>
+                        <strong>E-mail:</strong> <a class="contato__email" href="mailto:">contato@alessios.pizza</a></p>
+                    </li>
+                    <li>
+                        <p><strong>Horário de Funcionamento:</strong> Segunda a Sábado: 11h00 às 23h00 - Domingo: 16h00 às 23h00</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <a class="contato__btn-pecaAgora" href="#contato">Peça agora Mesmo!</a>
+            </div>
         </section>
     </main>
     <footer>
